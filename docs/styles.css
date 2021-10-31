@@ -20,6 +20,17 @@
   border-right: none;
 }
 
+.ui.inverted.main.menu {
+  background-color: black;
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.inverted.main.menu {
+    display: inherit;  /* Only visible on mobile. */
+  }
+}
+
 /** HEADER. */
 .bbf header {
   background: black;
@@ -48,6 +59,13 @@
 /** NAV MENU. **/
 nav {
   background-color: #f2711c;
+  display: none;
+}
+
+@media only screen and (min-width: 767px) {
+  nav {
+    display: inherit;  /* Only visible on desktop. */
+  }
 }
 
 .ui.menu {

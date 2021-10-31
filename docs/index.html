@@ -11,60 +11,70 @@
 <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body class="bbf">
-<header>
-  <div class="top-nav ui horizontal divided list">
-    <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org">contribute</a>
-    <a class="item" href="mailto:sales@coinkite.com?subject=%5BBitcoinBlackFriday.org%5D">contact</a>
-    <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org/blob/main/docs/deals.json">submit</a>
+<div class="ui sidebar inverted vertical container menu" data-role="sidebar">
+  <!-- Items copied dynamically from nav after category setup. -->
+</div>
+<div class="pusher">
+  <div class="ui fixed inverted container main menu">
+    <a class="launch icon item" data-role="sidebar-toggle">
+      <i class="content icon"></i>
+    </a>
   </div>
-  <h1 class="ui center aligned header">
-    <span>Bitcoin</span> <span>Black</span> <span>Friday</span> <span>.org</span>
-  </h1>
-</header>
-<nav>
-  <div class="ui inverted orange stackable container menu">
-    <div class="center menu" data-role="nav-menu">
-      <a class="header item" data-role="filter" data-filter="featured">
-        <span>Featured</span>
-      </a>
-      <a class="header item" data-role="sort" data-sort="discount">
-        <span>Discount %</span>
-      </a>
-      <a class="header item" data-role="sort" data-sort="alphabetical">
-        <span>Alphabetical</span>
-      </a>
-      <!-- Category items added dynamically. -->
+  <header>
+    <div class="top-nav ui horizontal divided list">
+      <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org">contribute</a>
+      <a class="item" href="mailto:sales@coinkite.com?subject=%5BBitcoinBlackFriday.org%5D">contact</a>
+      <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org/blob/main/docs/deals.json">submit</a>
     </div>
-  </div>
-</nav>
-<main class="ui three column doubling stackable grid container">
-  <template>
-    <div class="ui column items relaxed" data-role="deal">
-      <div class="ui item">
-        <a class="ui small image" data-role="product-link">
-          <img src="./favicon.png" />
+    <h1 class="ui center aligned header">
+      <span>Bitcoin</span> <span>Black</span> <span>Friday</span> <span>.org</span>
+    </h1>
+  </header>
+  <nav>
+    <div class="ui inverted orange stackable container menu">
+      <div class="center menu" data-role="nav-menu">
+        <a class="header item" data-role="filter" data-filter="featured">
+          <span>Featured</span>
         </a>
-        <div class="content">
-          <a class="header" data-role="product-link">Some Short Title</a>
-          <div class="description">Some Short SubTitle</div>
-          <div class="meta discount"></div>
-          <div class="meta duration">
-            <span class="starts">
-              From <span class="datetime">Nov. 1st 10am</span>
-            </span>
-            <span class="ends">
-              until <span class="datetime">Nov. 3rd 2pm</span>
-            </span>
-          </div>
-          <ul class="extra categories">
-            <li>Category1</li>
-            <li>Category2</li>
-          </ul>
-        </div>
+        <a class="header item" data-role="sort" data-sort="discount">
+          <span>Discount %</span>
+        </a>
+        <a class="header item" data-role="sort" data-sort="alphabetical">
+          <span>Alphabetical</span>
+        </a>
+        <!-- Category items added dynamically. -->
       </div>
     </div>
-  </template>
-</main>
+  </nav>
+  <main class="ui three column doubling stackable grid container">
+    <template>
+      <div class="ui column items relaxed" data-role="deal">
+        <div class="ui item">
+          <a class="ui small image" data-role="product-link">
+            <img src="./favicon.png" />
+          </a>
+          <div class="content">
+            <a class="header" data-role="product-link">Some Short Title</a>
+            <div class="description">Some Short SubTitle</div>
+            <div class="meta discount"></div>
+            <div class="meta duration">
+              <span class="starts">
+                From <span class="datetime">Nov. 1st 10am</span>
+              </span>
+              <span class="ends">
+                until <span class="datetime">Nov. 3rd 2pm</span>
+              </span>
+            </div>
+            <ul class="extra categories">
+              <li>Category1</li>
+              <li>Category2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </template>
+  </main>
+</div>
 <script src="./app.js"></script>
 </body>
 </html>
