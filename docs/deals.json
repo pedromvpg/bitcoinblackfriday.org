@@ -30,7 +30,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hats", "apparel"],
-    "discount": 50,
+    "discount": 100,
     "url": "https://www.coinkite.com/",
     "code": "DISCOUNT",
     "featured": true
@@ -42,7 +42,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware"],
-    "discount": 35,
+    "discount": 100,
     "url": "https://www.coinkite.com/",
     "code": "DISCOUNT",
     "featured": true
