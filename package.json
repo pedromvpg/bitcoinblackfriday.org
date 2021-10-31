@@ -1,0 +1,29 @@
+{
+  "name": "bitcoin-black-friday",
+  "version": "0.0.1",
+  "description": "Site for posting Bitcoin related black friday deals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimbojw/bitcoin-black-friday.git"
+  },
+  "keywords": [
+    "Bitcoin",
+    "black",
+    "friday"
+  ],
+  "author": "jimbojw",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jimbojw/bitcoin-black-friday/issues"
+  },
+  "homepage": "https://jimbojw.github.com/bitcoin-black-friday",
+  "devDependencies": {
+    "http-server": "14.0.0"
+  },
+  "dependencies": {}
+}

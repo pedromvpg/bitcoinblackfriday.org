@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Bitcoin Black Friday</title>
+<link rel="stylesheet" type="text/css" href="./third-party/fomantic-ui/fomantic-ui-2.8.8.min.css">
+<script src="./third-party/jquery/jquery-3.1.1.min.js"></script>
+<script src="./third-party/fomantic-ui/fomantic-ui-2.8.8.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body class="bbf">
+<header>
+  <h1 class="ui center aligned header">
+    <span>Bitcoin</span> <span>Black</span> <span>Friday</span>
+  </h1>
+</header>
+<nav>
+  <div class="ui inverted orange stackable container menu">
+    <a class="header item" data-role="filter" data-filter="featured">
+      <span>Featured</span>
+    </a>
+    <a class="header item" data-role="sort" data-sort="discount">
+      <span>Discount %</span>
+    </a>
+    <a class="header item" data-role="sort" data-sort="alphabetical">
+      <span>Alphabetical</span>
+    </a>
+    <!-- Category items added dynamically. -->
+  </div>
+</nav>
+<main class="ui three column doubling stackable grid container">
+  <template>
+    <div class="ui column items relaxed" data-role="deal">
+      <div class="ui item">
+        <div class="ui small image">
+          <a><img src="./favicon.png" /></a>
+        </div>
+        <div class="content">
+          <a class="header">Some Short Title</a>
+          <div class="description">Some Short SubTitle</div>
+          <div class="meta discount"></div>
+          <div class="meta duration">
+            <span class="starts">
+              From <span class="datetime">Nov. 1st 10am</span>
+            </span>
+            <span class="ends">
+              until <span class="datetime">Nov. 3rd 2pm</span>
+            </span>
+          </div>
+          <ul class="extra categories">
+            <li>Category1</li>
+            <li>Category2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </template>
+</main>
+<script src="./app.js"></script>
+</body>
+</html>
