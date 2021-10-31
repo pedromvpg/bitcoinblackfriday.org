@@ -91,7 +91,7 @@ function setupCategories(deals) {
   const uniqueCategories = getUniqueCategories(deals);
 
   // Create nav menu items.
-  const $menu = $('nav .menu');
+  const $menu = $('[data-role="nav-menu"]');
   for (const category of uniqueCategories.values()) {
     const $item = $('<a class="header item"></a>')
       .attr('data-role', 'filter')
@@ -106,7 +106,7 @@ function setupCategories(deals) {
  * Setup click handler for nav filters.
  */
 function setupFilters() {
-  const $filters = $('nav .menu .item[data-role="filter"]');
+  const $filters = $('[data-role="nav-menu"] [data-role="filter"]');
   $filters.click((event) => {
     const $target = $(event.currentTarget);
 
@@ -174,7 +174,7 @@ function compareTitles($a, $b) {
  * Setup click handler for nav sort buttons.
  */
 function setupSorting() {
-  const $sorters = $('nav .menu .item[data-role="sort"]');
+  const $sorters = $('[data-role="nav-menu"] [data-role="sort"]');
 
   $sorters.click((event) => {
     const $target = $(event.currentTarget);
