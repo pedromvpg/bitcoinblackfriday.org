@@ -1,0 +1,50 @@
+[
+  {
+    "title": "T-Shirt",
+    "description": "A comfy T-shirt",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["apparel", "shirts"],
+    "discount": 100,
+    "url": "https://www.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": false
+  },
+  {
+    "title": "Pajamas",
+    "description": "Sleep in these",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["apparel"],
+    "discount": 15,
+    "url": "https://www.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": false
+  },
+  {
+    "title": "Hat",
+    "description": "Goes on the head",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hats", "apparel"],
+    "discount": 50,
+    "url": "https://www.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  },
+  {
+    "title": "ColdCard",
+    "description": "Hardware wallet",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hardware"],
+    "discount": 35,
+    "url": "https://www.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  }
+]

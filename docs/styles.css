@@ -1,0 +1,68 @@
+/**
+ * @fileoverview Override styles for Bitcoin Black Friday. The 'bbf' class
+ * applied to the <body> tag allows for adding specificity to override
+ * semantic/fromantic styles.
+ */
+
+/** HEADER. */
+.bbf header {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  justify-content: center;
+}
+
+.bbf h1.ui.header {
+  font-size: 5rem;
+  line-height: 1;
+  margin: 2rem 0;
+}
+
+.bbf header h1 span {
+  color: white;
+}
+.bbf header h1 span:first-child {
+  color: #f2711c;
+}
+
+/** NAV MENU. **/
+nav {
+  background-color: #f2711c;
+}
+
+.ui.menu {
+  border-radius: 0;
+  margin: 0;
+}
+
+.ui.menu .item {
+  text-transform: capitalize;
+}
+
+/** DEAL ITEMS. **/
+.ui.grid {
+  margin: 0;
+}
+
+.ui.items {
+  margin: 0;
+}
+
+.ui.items > .item .extra {
+  list-style-type: none;
+}
+
+.ui.items > .item .meta.discount {
+  color: #a02c13;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ui.items > .item .extra li {
+  background: #ccc;
+  color: #333;
+  display: inline-block;
+  padding: 0.1em 0.4em;
+}
