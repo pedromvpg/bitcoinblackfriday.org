@@ -41,9 +41,9 @@ function setupDeals(deals) {
       $deal.find('.image img').attr('src', `./images/${deal.image}`);
     }
 
-    $deal.find('.image a').attr('href', deal.url || null);
+    $deal.find('[data-role="product-link"]').attr('href', deal.url || null);
 
-    $deal.find('.header').attr('href', deal.url || null).text(deal.title);
+    $deal.find('.header').text(deal.title);
     $deal.find('.description').text(deal.description);
 
     $deal.find('.starts .datetime')
