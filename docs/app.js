@@ -100,13 +100,18 @@ function setupCategories(deals) {
     $item.append('span').text(category);
     $menu.append($item);
   }
+
+  // Copy nav menu content to sidebar.
+  $('[data-role="sidebar"]').html($menu.html());
 }
 
 /**
- * Setup click handler for nav filters.
+ * Setup click handler for sidebar and nav filters.
  */
 function setupFilters() {
-  const $filters = $('[data-role="nav-menu"] [data-role="filter"]');
+  // Finds all filter items in both sidebar and nav.
+  const $filters = $('[data-role="filter"]');
+
   $filters.click((event) => {
     const $target = $(event.currentTarget);
 
@@ -171,10 +176,11 @@ function compareTitles($a, $b) {
 }
 
 /**
- * Setup click handler for nav sort buttons.
+ * Setup click handler for nav and sidebar sort buttons.
  */
 function setupSorting() {
-  const $sorters = $('[data-role="nav-menu"] [data-role="sort"]');
+  // Finds all 'sort' items everywhere in page (both sidebar and nav).
+  const $sorters = $('[data-role="sort"]');
 
   $sorters.click((event) => {
     const $target = $(event.currentTarget);
@@ -203,12 +209,19 @@ function setupSorting() {
   });
 }
 
+function setupSidebarToggle() {
+  const $sidebar = $('[data-role="sidebar"]');
+  const $toggleButton = $('[data-role="sidebar-toggle"]');
+  $toggleButton.click(() => $sidebar.sidebar('toggle'));
+}
+
 async function main() {
   const deals = await loadDeals();
   setupDeals(deals);
   setupCategories(deals);
   setupFilters();
   setupSorting();
+  setupSidebarToggle();
 }
 
 main();
