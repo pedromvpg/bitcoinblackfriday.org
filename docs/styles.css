@@ -61,8 +61,10 @@ nav {
 }
 
 .ui.items > .item .extra li {
-  background: #ccc;
-  color: #333;
+  color: #505050;
   display: inline-block;
-  padding: 0.1em 0.4em;
+  padding: 0em 0.5em;
+  font-size: 0.8em;
+  border-radius: 3px;
+  border: 1px dashed #505050;
 }
