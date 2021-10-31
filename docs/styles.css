@@ -3,6 +3,21 @@
  * applied to the <body> tag allows for adding specificity to override
  * semantic/fromantic styles.
  */
+/** TOP NAV. */
+.top-nav.ui.divided.horizontal.list {
+  display: flex;
+  margin-right: 2rem;
+  justify-content: flex-end;
+}
+
+.top-nav.ui.divided.horizontal.list>.item {
+  color: white;
+  border-right: 1px solid white;
+}
+
+.top-nav.ui.divided.horizontal.list>.item:last-child {
+  border-right: none;
+}
 
 /** HEADER. */
 .bbf header {
