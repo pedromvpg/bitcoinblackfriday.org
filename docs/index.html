@@ -23,27 +23,29 @@
 </header>
 <nav>
   <div class="ui inverted orange stackable container menu">
-    <a class="header item" data-role="filter" data-filter="featured">
-      <span>Featured</span>
-    </a>
-    <a class="header item" data-role="sort" data-sort="discount">
-      <span>Discount %</span>
-    </a>
-    <a class="header item" data-role="sort" data-sort="alphabetical">
-      <span>Alphabetical</span>
-    </a>
-    <!-- Category items added dynamically. -->
+    <div class="center menu" data-role="nav-menu">
+      <a class="header item" data-role="filter" data-filter="featured">
+        <span>Featured</span>
+      </a>
+      <a class="header item" data-role="sort" data-sort="discount">
+        <span>Discount %</span>
+      </a>
+      <a class="header item" data-role="sort" data-sort="alphabetical">
+        <span>Alphabetical</span>
+      </a>
+      <!-- Category items added dynamically. -->
+    </div>
   </div>
 </nav>
 <main class="ui three column doubling stackable grid container">
   <template>
     <div class="ui column items relaxed" data-role="deal">
       <div class="ui item">
-        <div class="ui small image">
-          <a><img src="./favicon.png" /></a>
-        </div>
+        <a class="ui small image" data-role="product-link">
+          <img src="./favicon.png" />
+        </a>
         <div class="content">
-          <a class="header">Some Short Title</a>
+          <a class="header" data-role="product-link">Some Short Title</a>
           <div class="description">Some Short SubTitle</div>
           <div class="meta discount"></div>
           <div class="meta duration">
