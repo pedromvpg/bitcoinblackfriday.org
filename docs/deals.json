@@ -7,7 +7,7 @@
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["apparel", "shirts"],
     "discount": 100,
-    "url": "https://www.coinkite.com/",
+    "url": "https://store.coinkite.com/",
     "code": "DISCOUNT",
     "featured": false
   },
@@ -19,7 +19,7 @@
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["apparel"],
     "discount": 15,
-    "url": "https://www.coinkite.com/",
+    "url": "https://store.coinkite.com/",
     "code": "DISCOUNT",
     "featured": false
   },
@@ -31,19 +31,91 @@
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hats", "apparel"],
     "discount": 100,
-    "url": "https://www.coinkite.com/",
+    "url": "https://store.coinkite.com/",
     "code": "DISCOUNT",
     "featured": true
   },
   {
-    "title": "ColdCard",
+    "title": "COLDCARD",
+    "description": "Bitcoin Hardware Wallet",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hardware"],
+    "discount": 100,
+    "url": "https://store.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  }
+  {
+    "title": "OPENDIME",
     "description": "Hardware wallet",
     "image": "missing.png",
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware"],
     "discount": 100,
-    "url": "https://www.coinkite.com/",
+    "url": "https://store.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  }
+  {
+    "title": "SEEDPLATE",
+    "description": "Metal Seed Backup Plate",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hardware"],
+    "discount": 100,
+    "url": "https://store.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  }
+  {
+    "title": "COLDPOWER",
+    "description": "No-Data Power Supply",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hardware"],
+    "discount": 100,
+    "url": "https://store.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  }
+  {
+    "title": "OPENDIME Orange",
+    "description": "Hardware wallet",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hardware"],
+    "discount": 100,
+    "url": "https://store.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  }
+  {
+    "title": "OPENDIME Green",
+    "description": "Hardware wallet",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hardware"],
+    "discount": 100,
+    "url": "https://store.coinkite.com/",
+    "code": "DISCOUNT",
+    "featured": true
+  }
+  {
+    "title": "Industrial MicroSD",
+    "description": "Storage Device",
+    "image": "missing.png",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-03T10:00:30.000Z",
+    "categories": ["hardware"],
+    "discount": 100,
+    "url": "https://store.coinkite.com/",
     "code": "DISCOUNT",
     "featured": true
   }
