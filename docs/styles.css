@@ -92,11 +92,13 @@ nav {
 
 .ui.items > .item .meta.discount {
   color: #a02c13;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   margin: 0;
 }
-
+.ui.items>.item .extra{
+  margin: 0 .5rem 0 0;
+}
 .ui.items > .item .extra li {
   color: #a5a5a5;
   display: inline-block;
@@ -105,4 +107,7 @@ nav {
   border-radius: 3px;
   border: 1px dashed #a5a5a5;
   line-height: 1.15em;
+}
+.ui.items>.item>.content>.description {
+  margin-top:0;
 }
