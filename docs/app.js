@@ -54,6 +54,8 @@ function setupDeals(deals) {
 
     $deal.find('.discount').text(`${deal.discount || 0}%`);
 
+    $deal.find('.discount-code').text(`Discount Code: ${deal.code ? deal.code : 'N/A'}`);
+
     const $categories = $deal.find('.categories').empty();
     for (const category of deal.categories || []) {
       const $li = $('<li></li>')
