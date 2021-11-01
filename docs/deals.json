@@ -8,7 +8,7 @@
     "categories": ["apparel", "shirts"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": false
   },
   {
@@ -20,7 +20,7 @@
     "categories": ["apparel"],
     "discount": 15,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": false
   },
   {
@@ -44,7 +44,7 @@
     "categories": ["hardware"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": true
   },
   {
@@ -56,7 +56,7 @@
     "categories": ["hardware"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": true
   },
   {
@@ -68,7 +68,7 @@
     "categories": ["hardware"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": true
   },
   {
@@ -80,7 +80,7 @@
     "categories": ["hardware"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": true
   },
   {
@@ -92,7 +92,7 @@
     "categories": ["hardware"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": true
   },
   {
@@ -104,7 +104,7 @@
     "categories": ["hardware"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": true
   },
   {
@@ -116,7 +116,7 @@
     "categories": ["hardware"],
     "discount": 100,
     "url": "https://store.coinkite.com/",
-    "code": "DISCOUNT",
+    "code": "PROMOCODE",
     "featured": true
   }
 ]
