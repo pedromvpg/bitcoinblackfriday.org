@@ -54,6 +54,7 @@
 }
 .bbf header h1 span:last-child {
   font-size: 0.4em;
+  margin-left: -21px;
 }
 
 /** NAV MENU. **/
