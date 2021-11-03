@@ -4,21 +4,17 @@
  * semantic/fromantic styles.
  */
 
-/** sticky footer */
+/** STICKY FOOTER */
 .pusher {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-header,
 footer {
   flex-shrink: 0;
 }
 
-main {
-  flex: 1 0 auto;
-}
 /** TOP NAV. */
 .top-nav.ui.divided.horizontal.list {
   display: flex;
@@ -50,6 +46,7 @@ main {
 .bbf header {
   background: black;
   display: flex;
+  flex-shrink: 0;
   flex-direction: column;
   min-height: 200px;
   justify-content: center;
@@ -73,7 +70,8 @@ main {
 }
 
 /** MAIN CONTENT. **/
-main {
+main {	
+	flex: 1 0 auto;
 	min-height: 400px;
 }
 
