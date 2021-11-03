@@ -34,3 +34,7 @@ Open a browser to `localhost:8080` to see the site.
 ## Landing Page
 
 comment out `landing-page` full `<article>` to make the rest come up. 
+
+## Demo of Listing
+
+![bbf-screen-shot](https://user-images.githubusercontent.com/797193/140234885-d9e5488a-9848-4522-8d4e-8f185ecd554a.png)
