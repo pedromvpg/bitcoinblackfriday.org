@@ -57,6 +57,11 @@
   margin-left: -21px;
 }
 
+/** MAIN CONTENT. **/
+main {
+	min-height: 400px;
+}
+
 /** NAV MENU. **/
 nav {
   background-color: #f2711c;
