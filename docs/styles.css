@@ -4,6 +4,21 @@
  * semantic/fromantic styles.
  */
 
+/** sticky footer */
+.pusher {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  flex-shrink: 0;
+}
+
+main {
+  flex: 1 0 auto;
+}
 /** TOP NAV. */
 .top-nav.ui.divided.horizontal.list {
   display: flex;
