@@ -30,3 +30,7 @@ $ npm start
 
 This will launch a simple, static HTTP server serving the `docs/` directory.
 Open a browser to `localhost:8080` to see the site.
+
+## Landing Page
+
+comment out `landing-page` full `<article>` to make the rest come up. 
