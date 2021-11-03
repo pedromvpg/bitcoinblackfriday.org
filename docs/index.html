@@ -15,66 +15,113 @@
   <!-- Items copied dynamically from nav after category setup. -->
 </div>
 <div class="pusher">
-  <div class="ui fixed inverted container main menu">
-    <a class="launch icon item" data-role="sidebar-toggle">
-      <i class="content icon"></i>
-    </a>
-  </div>
   <header>
     <div class="top-nav ui horizontal divided list">
       <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org">contribute</a>
       <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org/issues">contact</a>
-      <a class="item" href="/submit">submit</a>
+      <a class="item" href="#submit">submit</a>
     </div>
     <h1 class="ui center aligned header">
       <span>Bitcoin</span> <span>Black</span> <span>Friday</span> <span>.org</span>
     </h1>
   </header>
-  <nav>
-    <div class="ui inverted orange stackable container menu">
-      <div class="center menu" data-role="nav-menu">
-        <a class="header item" data-role="filter" data-filter="featured">
-          <span>Featured</span>
+  <main>
+    <article id="main-page">
+      <div class="ui fixed inverted container main menu">
+        <a class="launch icon item" data-role="sidebar-toggle">
+          <i class="content icon"></i>
         </a>
-        <a class="header item" data-role="sort" data-sort="discount">
-          <span>Discount %</span>
-        </a>
-        <a class="header item" data-role="sort" data-sort="alphabetical">
-          <span>Alphabetical</span>
-        </a>
-        <!-- Category items added dynamically. -->
       </div>
-    </div>
-  </nav>
-  <main class="ui three column doubling stackable grid container">
-    <template>
-      <div class="ui column items relaxed" data-role="deal">
-        <div class="ui item">
-          <a class="ui small image" data-role="product-link">
-            <img src="./favicon.png" />
-          </a>
-          <div class="content">
-            <a class="header" data-role="product-link">Some Short Title</a>
-            <div class="description">Some Short SubTitle</div>
-            <div class="meta discount"></div>
-            <div class="meta duration">
-              <span class="starts">
-                <span class="datetime">Nov. 1st 10am</span>
-              </span>
-              <span class="ends">
-                to <span class="datetime">Nov. 3rd 2pm</span>
-              </span>
+      <nav>
+        <div class="ui inverted orange stackable container menu">
+          <div class="center menu" data-role="nav-menu">
+            <a class="header item" data-role="filter" data-filter="featured">
+              <span>Featured</span>
+            </a>
+            <a class="header item" data-role="sort" data-sort="discount">
+              <span>Discount %</span>
+            </a>
+            <a class="header item" data-role="sort" data-sort="alphabetical">
+              <span>Alphabetical</span>
+            </a>
+            <!-- Category items added dynamically. -->
+          </div>
+        </div>
+      </nav>
+      <div class="ui three column doubling stackable grid container" data-role="deals">
+        <!-- Deals loaded dynamically based on deal-template. -->
+      </div>
+      <template data-role="deal-template">
+        <div class="ui column items relaxed" data-role="deal">
+          <div class="ui item">
+            <a class="ui small image" data-role="product-link">
+              <img src="./favicon.png" />
+            </a>
+            <div class="content">
+              <a class="header" data-role="product-link">Some Short Title</a>
+              <div class="description">Some Short SubTitle</div>
+              <div class="meta discount"></div>
+              <div class="meta duration">
+                <span class="starts">
+                  <span class="datetime">Nov. 1st 10am</span>
+                </span>
+                <span class="ends">
+                  to <span class="datetime">Nov. 3rd 2pm</span>
+                </span>
+              </div>
+              <div class="discount-code">DISCOUNT</div>
+              <ul class="extra categories">
+                <li>Category1</li>
+                <li>Category2</li>
+              </ul>
             </div>
-            <div class="discount-code">DISCOUNT</div>
-            <ul class="extra categories">
-              <li>Category1</li>
-              <li>Category2</li>
-            </ul>
+          </div>
+        </div>
+      </template>
+    </article>
+    <article id="about">
+      <div class="ui container">
+        <div class="ui masthead vertical segment">
+          <h2 class="ui huge header">About</h2>
+        </div>
+        <div class="ui vertical stripe segment">
+          <p>
+            <a href="#">bitcoinblackfriday.org</a>
+            is a website for hosting Bitcoin related Black Friday deals.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article id="submit">
+      <div class="ui container">
+        <div class="ui masthead vertical segment">
+          <h2 class="ui huge header">Submit</h2>
+        </div>
+        <div class="ui vertical stripe segment">
+          <p>
+            Here's where you'll find instructions on how to submit deals to
+            Bitcoin Black Friday.
+          </p>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="three wide column">
+          <h4 class="ui inverted header">Links</h4>
+          <div class="ui inverted link list">
+            <a class="item" href="#">Deals</a>
+            <a class="item" href="#about">About</a>
+            <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org">Contribute</a>
+            <a class="item" href="https://github.com/nvk/bitcoinblackfriday.org/issues">Contact</a>
+            <a class="item" href="#submit" class="item">Submit</a>
           </div>
         </div>
       </div>
-    </template>
-  </main>
+    </div>
+  </footer>
 </div>
 <script src="./app.js"></script>
 </body>

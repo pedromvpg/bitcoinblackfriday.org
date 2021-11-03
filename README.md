@@ -1,4 +1,4 @@
-# bitcoin-black-friday
+# bitcoinblackfriday.org
 
 Site for posting Bitcoin related black friday deals. The `docs/` dir contains
 all the static content.  This is because GitHub pages supports hosting the

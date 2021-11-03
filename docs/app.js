@@ -21,58 +21,68 @@ async function loadDeals() {
 }
 
 /**
- * For each deal, clone the template, fill in values and append to <main>.
+ * Find the deal template element and return a selection containing it.
  */
-function setupDeals(deals) {
-  const $main = $('main');
-  const template = $main.find('template').remove().get(0);
-
-  const $deals = [];
-  for (const deal of deals) {
-    const $deal = $(template.content.cloneNode(true))
-      .find('[data-role="deal"]');
-
-    $deal.attr('data-index', deal.index)
-      .attr('data-discount', deal.discount)
-      .attr('data-title', deal.title)
-      .toggleClass('featured', deal.featured);
-
-    if (deal.image) {
-      $deal.find('.image img').attr('src', `./images/${deal.image}`);
-    }
-
-    $deal.find('[data-role="product-link"]').attr('href', deal.url || null);
-
-    $deal.find('.header').text(deal.title);
-    $deal.find('.description').text(deal.description);
-
-    $deal.find('.starts .datetime')
-      .text(deal.starts ? format(deal.starts) : 'today');
-
-    $deal.find('.ends .datetime')
-      .text(deal.ends ? format(deal.ends) : 'forever');
-
-    $deal.find('.discount').text(`${deal.discount || 0}%`);
-
-    $deal.find('.discount-code').text(`${deal.code ? deal.code : 'N/A'}`);
-
-    const $categories = $deal.find('.categories').empty();
-    for (const category of deal.categories || []) {
-      const $li = $('<li></li>')
-        .attr('data-category', category)
-        .text(category);
-      $categories.append($li);
-    }
-
-    $deals.push($deal);
-  }
-
-  $deals.sort(compareDefault);
-  $main.append(...$deals);
+function getDealTemplate() {
+  const templateContent = $('[data-role="deal-template"]').get(0).content;
+  return $(templateContent).find('[data-role="deal"]');
 }
 
 /**
- * Get the unique list of categories (lowercase).
+ * Create a $deal selection by cloning the $template and filling in data values
+ * from the deal data object.
+ */
+function createDeal($template, deal) {
+  const $deal = $template.clone();
+
+  $deal.attr('data-index', deal.index)
+    .attr('data-discount', deal.discount)
+    .attr('data-title', deal.title)
+    .toggleClass('featured', deal.featured);
+
+  if (deal.image) {
+    $deal.find('.image img').attr('src', `./images/${deal.image}`);
+  }
+
+  $deal.find('[data-role="product-link"]').attr('href', deal.url || null);
+
+  $deal.find('.header').text(deal.title);
+  $deal.find('.description').text(deal.description);
+
+  $deal.find('.starts .datetime')
+    .text(deal.starts ? format(deal.starts) : 'today');
+
+  $deal.find('.ends .datetime')
+    .text(deal.ends ? format(deal.ends) : 'forever');
+
+  $deal.find('.discount').text(`${deal.discount || 0}%`);
+
+  $deal.find('.discount-code').text(`${deal.code ? deal.code : 'N/A'}`);
+
+  const $categories = $deal.find('.categories').empty();
+  for (const category of deal.categories || []) {
+    const $li = $('<li></li>')
+      .attr('data-category', category)
+      .text(category);
+    $categories.append($li);
+  }
+
+  return $deal;
+}
+
+/**
+ * For each deal, clone the template, fill in values, then append all of them
+ * into the deals area.
+ */
+function setupDeals(deals) {
+  const $template = getDealTemplate();
+  const $deals = deals.map((deal) => createDeal($template, deal));
+  $deals.sort(compareDefault);
+  $('[data-role="deals"]').empty().append(...$deals);
+}
+
+/**
+ * Get the unique list of categories among deals (lowercase).
  */
 function getUniqueCategories(deals) {
   const set = new Set();
@@ -135,7 +145,7 @@ function setupFilters() {
     }
 
     // Apply filter.
-    $('main [data-role="deal"]')
+    $('[data-role="deal"]')
       .each((_, elem) => {
         const $deal = $(elem);
         $deal.css('display', filterFn($deal) ? '' : 'none');
@@ -198,8 +208,7 @@ function setupSorting() {
       compareTitles;
 
     // Remove all deals, sort, then reattach in order.
-    const $main = $('main');
-    const $deals = $main.find('[data-role="deal"]')
+    const $deals = $('[data-role="deal"]')
       .remove()
       .toArray()
       .map((elem) => $(elem));
@@ -207,7 +216,7 @@ function setupSorting() {
     $deals.sort(($a, $b) => {
       return compareFn($a, $b);
     });
-    $main.append(...$deals);
+    $('[data-role="deals"]').append(...$deals);
   });
 }
 
@@ -217,7 +226,44 @@ function setupSidebarToggle() {
   $toggleButton.click(() => $sidebar.sidebar('toggle'));
 }
 
+/**
+ * Read location.hash and determine the id of the matching page.
+ */
+function getHashPageId() {
+  const hash = decodeURIComponent(location.hash.substring(1));
+  return `${hash.replace(/\s+/g, '') || 'main-page'}`;
+}
+
+/**
+ * Get the page associated with the current hash if it exists. Otherwise
+ * default to the main page.
+ */
+function getHashPage() {
+  const id = getHashPageId();
+  const $page = $(`#${id}`);
+
+  if ($page.length) {
+    return $page.first();
+  }
+
+  console.warn(`Missing page to match hash id: ${id}`);
+  return $('main > article').first();
+}
+
+/**
+ * When the page is loaded, or the URL hash changes, navigaite if it's a page
+ * we know about.
+ */
+function handleHashNavigation() {
+  const $page = getHashPage();
+  $('main > article').not($page).hide();
+  $page.show();
+}
+
 async function main() {
+  window.addEventListener('DOMContentLoaded', handleHashNavigation);
+  window.addEventListener('hashchange', handleHashNavigation);
+
   const deals = await loadDeals();
   setupDeals(deals);
   setupCategories(deals);
