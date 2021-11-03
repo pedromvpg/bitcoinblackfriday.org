@@ -86,7 +86,7 @@
   {
     "title": "OPENDIME Orange",
     "description": "Hardware wallet",
-    "image": "missing.png",
+    "image": "./2021/coinkite/coinkite-opendime-orange.png",
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware"],
