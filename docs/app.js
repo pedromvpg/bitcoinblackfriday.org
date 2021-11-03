@@ -227,27 +227,14 @@ function setupSidebarToggle() {
 }
 
 /**
- * Read location.hash and determine the id of the matching page.
- */
-function getHashPageId() {
-  const hash = decodeURIComponent(location.hash.substring(1));
-  return `${hash.replace(/\s+/g, '') || 'main-page'}`;
-}
-
-/**
  * Get the page associated with the current hash if it exists. Otherwise
- * default to the main page.
+ * default to the first page.
  */
 function getHashPage() {
-  const id = getHashPageId();
-  const $page = $(`#${id}`);
-
-  if ($page.length) {
-    return $page.first();
-  }
-
-  console.warn(`Missing page to match hash id: ${id}`);
-  return $('main > article').first();
+  const id = decodeURIComponent(location.hash.substring(1))
+    .replace(/\s+/g, '');
+  const elem = id && document.getElementById(id);
+  return elem ? $(elem) : $('main > article').first();
 }
 
 /**

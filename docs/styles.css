@@ -70,9 +70,24 @@ footer {
 }
 
 /** MAIN CONTENT. **/
-main {	
-	flex: 1 0 auto;
-	min-height: 400px;
+main {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+/** LANDING PAGE. **/
+.landing-page {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.landing-page .ui.header {
+  color: white;
 }
 
 /** NAV MENU. **/
