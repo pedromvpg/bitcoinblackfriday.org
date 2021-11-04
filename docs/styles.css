@@ -40,6 +40,11 @@ footer {
   .ui.inverted.main.menu {
     display: inherit;  /* Only visible on mobile. */
   }
+  
+  .top-nav.ui.divided.horizontal.list > .item {
+    font-size: 3vw;
+    margin-top: 20px;
+  }
 }
 
 /** HEADER. */
