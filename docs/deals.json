@@ -1,7 +1,7 @@
 [
   {
     "title": "Satochip hardware wallet",
-    "description": "Satochip stands for Secure Anonymous Trustless and Open Chip. Similarly to your bank card, it is a javacard applet that can be used as a small form factor and secure hardware wallet.",
+    "description": "Satochip stands for Secure Anonymous Trustless and Open Chip.",
     "image": "satochiphardwarewallet.jpg",
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
