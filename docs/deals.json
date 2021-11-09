@@ -1,5 +1,41 @@
 [
   {
+    "title": "Land of Iron",
+    "description": "A graphic novel about ambition, work, and freedom.",
+    "image": "./2021/ah/LOI.jpg",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["art", "ebooks","Graphics","Comics"],
+    "discount": 100,
+    "url": "https://ahijazi.website/stories",
+    "code": "art",
+    "featured": false
+  },
+  {
+    "title": "The Citadel and The Crowd",
+    "description": "A graphic novel about individuality and creativity.",
+    "image": "./2021/ah/TCATC.jpg",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["art", "ebooks","Graphics","Comics"],
+    "discount": 100,
+    "url": "https://ahijazi.website/stories",
+    "code": "art",
+    "featured": false
+  },
+{
+    "title": "Persistence of Defeat",
+    "description": "A graphic novel about creativity, memories, and death.",
+    "image": "./2021/ah/Inv.jpg",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["art", "ebooks","Graphics","Comics"],
+    "discount": 100,
+    "url": "https://ahijazi.website/stories",
+    "code": "art",
+    "featured": false
+  },
+  {
     "title": "Satochip hardware wallet",
     "description": "A Secure Anonymous Trustless and Open Chip.",
     "image": "./2021/satochip.jpg",
