@@ -1,53 +1,5 @@
 [
   {
-    "title": "Land of Iron",
-    "description": "A graphic novel about ambition, work...",
-    "image": "./2021/ah/LOI.jpg",
-    "starts": "2021-11-01T10:00:30.000Z",
-    "ends": "2021-11-30T10:00:30.000Z",
-    "categories": ["art", "ebooks","Graphics","Comics"],
-    "discount": "100%",
-    "url": "https://ahijazi.website/stories",
-    "code": "art",
-    "featured": false
-  },
-  {
-    "title": "The Citadel and The Crowd",
-    "description": "A graphic novel about individuality...",
-    "image": "./2021/ah/TCATC.jpg",
-    "starts": "2021-11-01T10:00:30.000Z",
-    "ends": "2021-11-30T10:00:30.000Z",
-    "categories": ["art", "ebooks","Graphics","Comics"],
-    "discount": "100%",
-    "url": "https://ahijazi.website/stories",
-    "code": "art",
-    "featured": false
-  },
-  {
-    "title": "Persistence of Defeat",
-    "description": "A graphic novel about creativity...",
-    "image": "./2021/ah/Inv.jpg",
-    "starts": "2021-11-01T10:00:30.000Z",
-    "ends": "2021-11-30T10:00:30.000Z",
-    "categories": ["art", "ebooks","Graphics","Comics"],
-    "discount": "100%",
-    "url": "https://ahijazi.website/stories",
-    "code": "art",
-    "featured": false
-  },
-  {
-    "title": "Satochip",
-    "description": "Secure Anonymous Trustless and...",
-    "image": "./2021/satochip.jpg",
-    "starts": "2021-11-01T10:00:30.000Z",
-    "ends": "2021-11-30T10:00:30.000Z",
-    "categories": ["hardware", "backup"],
-    "discount": "20%",
-    "url": "https://satochip.io/shop/",
-    "code": "cryptonovember",
-    "featured": false
-  },
-  {
     "title": "Honey Badger Hat",
     "description": "Goes on the head",
     "image": "./2021/coinkite/coinkite-hat-honey-badger.png",
@@ -166,16 +118,64 @@
 	"code": "BlackFriday",
 	"featured": false
   },
-{
+  {
 	"title": "BtcPins",
-	"description": "Buy2Get1Free-Pins/Stickers/Magnets",
+	"description": "Pins/Stickers/Magnets",
 	"image": "./2021/btcpins.png",
 	"starts": "2021-11-26T10:00:30.000Z",
 	"ends": "2021-12-31T10:00:30.000Z",
 	"categories": ["hats", "apparel", "art"],
-	"discount": "100%",
+	"discount": "Buy 2 Get 1 Free",
 	"url": "https://btcpins.com",
 	"code": "BBF",
 	"featured": false
+  },
+  {
+    "title": "Land of Iron",
+    "description": "A graphic novel about ambition, work...",
+    "image": "./2021/ah/LOI.jpg",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["art", "ebooks","Graphics","Comics"],
+    "discount": "100%",
+    "url": "https://ahijazi.website/stories",
+    "code": "art",
+    "featured": false
+  },
+  {
+    "title": "The Citadel and The Crowd",
+    "description": "A graphic novel about individuality...",
+    "image": "./2021/ah/TCATC.jpg",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["art", "ebooks","Graphics","Comics"],
+    "discount": "100%",
+    "url": "https://ahijazi.website/stories",
+    "code": "art",
+    "featured": false
+  },
+  {
+    "title": "Persistence of Defeat",
+    "description": "A graphic novel about creativity...",
+    "image": "./2021/ah/Inv.jpg",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["art", "ebooks","Graphics","Comics"],
+    "discount": "100%",
+    "url": "https://ahijazi.website/stories",
+    "code": "art",
+    "featured": false
+  },
+  {
+    "title": "Satochip",
+    "description": "Secure Anonymous Trustless and Open Chip",
+    "image": "./2021/satochip.jpg",
+    "starts": "2021-11-01T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["hardware", "backup"],
+    "discount": "20%",
+    "url": "https://satochip.io/shop/",
+    "code": "cryptonovember",
+    "featured": false
   }
 ]
