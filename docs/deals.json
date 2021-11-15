@@ -6,7 +6,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
     "categories": ["art", "ebooks","Graphics","Comics"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://ahijazi.website/stories",
     "code": "art",
     "featured": false
@@ -18,7 +18,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
     "categories": ["art", "ebooks","Graphics","Comics"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://ahijazi.website/stories",
     "code": "art",
     "featured": false
@@ -30,7 +30,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
     "categories": ["art", "ebooks","Graphics","Comics"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://ahijazi.website/stories",
     "code": "art",
     "featured": false
@@ -42,7 +42,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
     "categories": ["hardware", "backup"],
-    "discount": 20,
+    "discount": "20%",
     "url": "https://satochip.io/shop/",
     "code": "cryptonovember",
     "featured": false
@@ -54,7 +54,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hats", "apparel"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -66,7 +66,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hats", "apparel"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -78,7 +78,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware", "wallet"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -90,9 +90,8 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware", "display", "art"],
-    "discount": 100,
+    "discount": "$999 off",
     "url": "https://store.coinkite.com/",
-    "code": "NO CODE NEEDED",
     "featured": true
   },
   {
@@ -102,7 +101,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware", "backup"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -114,7 +113,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -126,7 +125,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware", "wallet"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -138,7 +137,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware", "wallet"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -150,7 +149,7 @@
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-03T10:00:30.000Z",
     "categories": ["hardware", "backup"],
-    "discount": 100,
+    "discount": "100%",
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
@@ -162,7 +161,7 @@
 	"starts": "2021-11-26T10:00:30.000Z",
 	"ends": "2021-12-20T10:00:30.000Z",
 	"categories": ["art", "nodes"],
-	"discount": 10,
+	"discount": "10%",
 	"url": "https://cryptocloaks.com",
 	"code": "BlackFriday",
 	"featured": false
@@ -174,7 +173,7 @@
 	"starts": "2021-11-26T10:00:30.000Z",
 	"ends": "2021-12-31T10:00:30.000Z",
 	"categories": ["hats", "apparel", "art"],
-	"discount": 100,
+	"discount": "100%",
 	"url": "https://btcpins.com",
 	"code": "BBF",
 	"featured": false
