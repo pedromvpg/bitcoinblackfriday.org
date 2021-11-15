@@ -1,7 +1,7 @@
 [
   {
     "title": "Land of Iron",
-    "description": "A graphic novel about ambition, work, and freedom.",
+    "description": "A graphic novel about ambition, work...",
     "image": "./2021/ah/LOI.jpg",
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
@@ -13,7 +13,7 @@
   },
   {
     "title": "The Citadel and The Crowd",
-    "description": "A graphic novel about individuality and creativity.",
+    "description": "A graphic novel about individuality...",
     "image": "./2021/ah/TCATC.jpg",
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Persistence of Defeat",
-    "description": "A graphic novel about creativity, memories, and death.",
+    "description": "A graphic novel about creativity...",
     "image": "./2021/ah/Inv.jpg",
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
@@ -36,8 +36,8 @@
     "featured": false
   },
   {
-    "title": "Satochip hardware wallet",
-    "description": "A Secure Anonymous Trustless and Open Chip.",
+    "title": "Satochip",
+    "description": "Secure Anonymous Trustless and...",
     "image": "./2021/satochip.jpg",
     "starts": "2021-11-01T10:00:30.000Z",
     "ends": "2021-11-30T10:00:30.000Z",
