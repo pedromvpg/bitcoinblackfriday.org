@@ -23,7 +23,7 @@
     "code": "art",
     "featured": false
   },
-{
+  {
     "title": "Persistence of Defeat",
     "description": "A graphic novel about creativity, memories, and death.",
     "image": "./2021/ah/Inv.jpg",
@@ -45,30 +45,6 @@
     "discount": 20,
     "url": "https://satochip.io/shop/",
     "code": "cryptonovember",
-    "featured": false
-  },
-  {
-    "title": "T-Shirt",
-    "description": "A comfy T-shirt",
-    "image": "missing.png",
-    "starts": "2021-11-01T10:00:30.000Z",
-    "ends": "2021-11-03T10:00:30.000Z",
-    "categories": ["apparel", "shirts"],
-    "discount": 50,
-    "url": "https://store.coinkite.com/",
-    "code": "PROMOCODE",
-    "featured": false
-  },
-  {
-    "title": "Pajamas",
-    "description": "Sleep in these",
-    "image": "missing.png",
-    "starts": "2021-11-01T10:00:30.000Z",
-    "ends": "2021-11-03T10:00:30.000Z",
-    "categories": ["apparel"],
-    "discount": 15,
-    "url": "https://store.coinkite.com/",
-    "code": "PROMOCODE",
     "featured": false
   },
   {
@@ -178,5 +154,17 @@
     "url": "https://store.coinkite.com/",
     "code": "NO CODE NEEDED",
     "featured": true
+  },
+  {
+	"title": "CryptoCloaks",
+	"description": "3D printed and metal products.",
+	"image": "./2021/cryptocloaks.jpg",
+	"starts": "2021-11-26T10:00:30.000Z",
+	"ends": "2021-12-20T10:00:30.000Z",
+	"categories": ["art", "nodes"],
+	"discount": 10,
+	"url": "https://cryptocloaks.com",
+	"code": "BlackFriday",
+	"featured": false
   }
 ]
