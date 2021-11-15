@@ -55,7 +55,7 @@ function createDeal($template, deal) {
   $deal.find('.ends .datetime')
     .text(deal.ends ? format(deal.ends) : 'forever');
 
-  $deal.find('.discount').text(`${deal.discount || 0}%`);
+  $deal.find('.discount').text(`${deal.discount || 'Unknown'}`);
 
   $deal.find('.discount-code').text(`${deal.code ? deal.code : 'N/A'}`);
 
@@ -173,6 +173,7 @@ function compareDefault($a, $b) {
  * Sort compare function that compares deals' discounts (higher first).
  */
 function compareDiscounts($a, $b) {
+/* XXX not all are percents, cant compare non-trivial discounts */
   const a = parseFloat($a.attr('data-discount'));
   const b = parseFloat($b.attr('data-discount'));
   return b - a;
