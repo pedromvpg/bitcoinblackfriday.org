@@ -135,6 +135,9 @@ nav {
   font-weight: bold;
   margin: 0;
 }
+.ui.items>.item .meta {
+  font-size: 0.95em;
+}
 .ui.items>.item .extra{
   margin: 0 .5rem 0 0;
 }
