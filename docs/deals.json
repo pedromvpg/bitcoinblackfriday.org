@@ -167,4 +167,16 @@
 	"code": "BlackFriday",
 	"featured": false
   }
+{
+	"title": "BtcPins",
+	"description": "Buy2Get1Free - Pins/Stickers/Magnets",
+	"image": "./2021/btcpins.png",
+	"starts": "2021-11-26T10:00:30.000Z",
+	"ends": "2021-12-31T10:00:30.000Z",
+	"categories": ["hats", "apparel", "art"],
+	"discount": 100,
+	"url": "https://btcpins.com",
+	"code": "BBF",
+	"featured": false
+  }
 ]
