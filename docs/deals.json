@@ -131,6 +131,30 @@
 	"featured": false
   },
   {
+	"title": "Degoogled Pixel 4a",
+	"description": "Degoogled GrapheneOS / CalyxOS phone",
+	"image": "./2021/degoogled.jpg",
+	"starts": "2021-11-01T10:00:30.000Z",
+	"ends": "2021-11-30T10:00:30.000Z",
+	"categories": ["phone"],
+	"discount": "10%",
+	"url": "https://de-googled.com/collections/degoogled-phones",
+	"code": "NO CODE NEEDED",
+	"featured": false
+  },
+  {
+	"title": "Hodlr Disks Stealth",
+	"description": "Seed Metal Backup, Black",
+	"image": "./2021/hodlr-disk.jpg",
+	"starts": "2021-11-17T10:00:30.000Z",
+	"ends": "2021-11-17T10:00:30.000Z",
+	"categories": ["backup", "hardware"],
+	"discount": "25%",
+	"url": "https://hodlr.swiss/products/seed-metal-backup-hodlr-disks-stealth",
+	"code": "BITCOINBF25",
+	"featured": false
+  },
+  {
     "title": "Land of Iron",
     "description": "A graphic novel about ambition, work...",
     "image": "./2021/ah/LOI.jpg",
