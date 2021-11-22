@@ -225,5 +225,17 @@
 	"url": "https://pantiesforbitcoin.com/",
 	"code": "NO CODE NEEDED",
 	"featured": false
+  },
+  {
+	"title": "Crypto Maan",
+	"description": "Multiple products",
+	"image": "./2021/cryptomaan.png",
+	"starts": "2021-11-11T10:00:30.000Z",
+	"ends": "2021-11-30T10:00:30.000Z",
+	"categories": ["hardware", "books"],
+	"discount": "30%",
+	"url": "https://cryptomaan.nl/collections/black-friday-bitcoin-crypto/",
+	"code": "NO CODE NEEDED",
+	"featured": false
   }
 ]
