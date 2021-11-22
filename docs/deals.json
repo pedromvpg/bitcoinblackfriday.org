@@ -201,5 +201,29 @@
     "url": "https://satochip.io/shop/",
     "code": "cryptonovember",
     "featured": false
+  },
+  {
+	"title": "Genesis Culotte 3 Pack",
+	"description": "Buy a pack of 3 and get one extra panty free.",
+	"image": "./2021/pantiesforbitcoin.png",
+	"starts": "2021-11-11T10:00:30.000Z",
+	"ends": "2021-11-30T10:00:30.000Z",
+	"categories": ["panties", "apparel"],
+	"discount": "25%",
+	"url": "https://pantiesforbitcoin.com/",
+	"code": "NO CODE NEEDED",
+	"featured": false
+  },
+  {
+	"title": "Genesis Hipster 3 Pack",
+	"description": "Buy a pack of 3 and get one extra panty free.",
+	"image": "./2021/pantiesforbitcoin.png",
+	"starts": "2021-11-11T10:00:30.000Z",
+	"ends": "2021-11-30T10:00:30.000Z",
+	"categories": ["panties", "apparel"],
+	"discount": "25%",
+	"url": "https://pantiesforbitcoin.com/",
+	"code": "NO CODE NEEDED",
+	"featured": false
   }
 ]
