@@ -237,5 +237,17 @@
 	"url": "https://cryptomaan.nl/collections/black-friday-bitcoin-crypto/",
 	"code": "NO CODE NEEDED",
 	"featured": false
-  }
+  },
+  {
+	"title": "Blockstream Store",
+	"description": "Multiple products",
+	"image": "./2021/blockstream_black_friday_sale.jpg",
+	"starts": "2021-11-26T00:00:30.000Z",
+	"ends": "2021-11-28T11:59:59.000Z",
+	"categories": ["hardware","stickers","hats", "apparel"],
+	"discount": "10%",
+	"url": "https://store.blockstream.com/",
+	"code": "NO CODE NEEDED",
+	"featured": false
+ }
 ]
