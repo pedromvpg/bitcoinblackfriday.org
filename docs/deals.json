@@ -273,5 +273,17 @@
 	"url": "https://store.blockstream.com/",
 	"code": "NO CODE NEEDED",
 	"featured": false
+ },
+ {
+	"title": "Satoshi Resin Figure",
+	"description": "Black Friday Deal - 10% off",
+	"image": "./2021/Satoshi-resin-figure.jpg",
+	"starts": "2021-11-24T10:00:30.000Z",
+	"ends": "2021-11-28T10:00:30.000Z",
+	"categories": ["Art"],
+	"discount": "10%",
+	"url": "https://www.gobrrr.me/product/satoshi-by-saoulidisg/",
+	"code": "NO CODE NEEDED",
+	"featured": false
  }
 ]
