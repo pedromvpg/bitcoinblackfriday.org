@@ -107,6 +107,30 @@
     "featured": true
   },
   {
+    "title": "Keystone Hardware Wallet",
+    "description": "QR Air-gapped Hardware Wallet",
+    "image": "./2021/keystone-keystone-hardware-wallet.png",
+    "starts": "2021-11-25T15:00:30.000Z",
+    "ends": "2021-12-05T15:00:30.000Z",
+    "categories": ["hardware", "wallet"],
+    "discount": "20%",
+    "url": "https://keyst.one/blackfriday2021",
+    "code": "BF2021",
+    "featured": true
+  },
+  {
+    "title": "Keystone Tablet Plus",
+    "description": "Recovery Phrase Metal Storage",
+    "image": "./2021/keystone-keystone-tablet-plus.png",
+    "starts": "2021-11-25T15:00:30.000Z",
+    "ends": "2021-12-05T15:00:30.000Z",
+    "categories": ["hardware", "backup"],
+    "discount": "20%",
+    "url": "https://keyst.one/blackfriday2021",
+    "code": "BF2021",
+    "featured": true
+  },
+  {
 	"title": "CryptoCloaks",
 	"description": "3D printed and metal products.",
 	"image": "./2021/cryptocloaks.jpg",
