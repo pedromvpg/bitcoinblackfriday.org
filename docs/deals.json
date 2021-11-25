@@ -285,5 +285,30 @@
 	"url": "https://www.gobrrr.me/product/satoshi-by-saoulidisg/",
 	"code": "NO CODE NEEDED",
 	"featured": false
+ },
+ {
+	"title": "myNode One",
+	"description": "Bitcoin and Lightning Node",
+	"image": "./2021/mynode-one.jpg",
+	"starts": "2021-11-25T00:00:00.000Z",
+	"ends": "2021-11-29T23:59:59.000Z",
+	"categories": ["hardware", "nodes"],
+	"discount": "$10",
+	"url": "https://mynodebtc.com/",
+	"code": "NO CODE NEEDED",
+	"featured": false
+ },
+ {
+	"title": "myNode Premium",
+	"description": "Bitcoin and Lightning Node",
+	"image": "./2021/mynode-premium.png",
+	"starts": "2021-11-25T00:00:00.000Z",
+	"ends": "2021-11-29T23:59:59.000Z",
+	"categories": ["nodes"],
+	"discount": "15%",
+	"url": "https://mynodebtc.com/",
+	"code": "NO CODE NEEDED",
+	"featured": false
  }
+
 ]
