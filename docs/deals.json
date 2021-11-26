@@ -227,6 +227,30 @@
     "featured": false
   },
   {
+    "title": "Genesis Block Poster",
+    "description": "Breakdown of the genesis block, byte by byte.",
+    "image": "./2021/piratehash/piratehash_bitcoin_genesis_poster.jpg",
+    "starts": "2021-11-18T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["poster", "art"],
+    "discount": "50%",
+    "url": "https://piratehash.com/product/genesis-block-poster/",
+    "code": "piratefriday",
+    "featured": false
+  },
+  {
+    "title": "Bitcoin – Alpha v0.01 Book",
+    "description": "The original Bitcoin source code, first released in 2009.",
+    "image": "./2021/piratehash/piratehash_bitcoin_source_code_book.jpg",
+    "starts": "2021-11-18T10:00:30.000Z",
+    "ends": "2021-11-30T10:00:30.000Z",
+    "categories": ["book", "art"],
+    "discount": "50%",
+    "url": "https://piratehash.com/product/genesis-block-poster/",
+    "code": "piratefriday",
+    "featured": false
+  },
+  {
 	"title": "Genesis Culotte 3 Pack",
 	"description": "Buy a pack of 3 and get one extra panty free.",
 	"image": "./2021/pantiesforbitcoin.png",
@@ -310,5 +334,4 @@
 	"code": "NO CODE NEEDED",
 	"featured": false
  }
-
 ]
