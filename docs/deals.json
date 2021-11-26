@@ -227,7 +227,6 @@
     "featured": false
   },
   {
-<<<<<<< HEAD
     "title": "Genesis Block Poster",
     "description": "Breakdown of the genesis block, byte by byte.",
     "image": "./2021/piratehash/piratehash_bitcoin_genesis_poster.jpg",
@@ -250,8 +249,8 @@
     "url": "https://piratehash.com/product/genesis-block-poster/",
     "code": "piratefriday",
     "featured": false
-  }
-=======
+  },
+  {
 	"title": "Genesis Culotte 3 Pack",
 	"description": "Buy a pack of 3 and get one extra panty free.",
 	"image": "./2021/pantiesforbitcoin.png",
@@ -335,6 +334,4 @@
 	"code": "NO CODE NEEDED",
 	"featured": false
  }
-
->>>>>>> 19dac75ad2845d4cc176e2ca180b8ff176457753
 ]
